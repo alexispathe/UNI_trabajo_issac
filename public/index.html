@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Libreria para los iconos -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Fuente roboto de google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Estilos del proyecto -->
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="list-container">
+            <div class="list-header">
+                <div class="title-container">
+                    <h1>Bienvenido <small class="name"></small></h1>
+                </div>
+                <div class="option-container">
+                    <div class="add">
+                        <p>Crear una nueva tarea</p>
+                    </div>
+                    <div class="btn-logout">
+                        <p>Cerrar sesión</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="add-list-container">
+                <h2 class="title-container">Crear un nueva lista</h2>
+                <div class="form-container-2">
+                    <form>
+                        <div class="input-container">
+                            <input type="text" class="input title " name="title" placeholder="Escribe el nombre de la lista" required>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" class="input description" name="description" placeholder="¿Que es lo que vas hacer?" required>
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="btn-container">
+                    <div class="close">
+                        <button class="btn btn-danger">Cancelar</button>
+                    </div>
+                    <div class="addList">
+                        <button class="btn btn-success">Angregar</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="list">
+                <table class="table">
+                    <tr>
+                        <th>No.</th>
+                        <th>Nombre de la tarea</th>
+                        <th>Que voy hacer</th>
+                        <th>Author</th>
+                        <th>Borrar</th>
+                    </tr>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

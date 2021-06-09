@@ -1,0 +1,204 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* contenedor padre */
+
+body {
+    background-color: rgb(247, 244, 244);
+}
+
+.container {
+    width: 100%;
+}
+
+
+/* Estilos para el formulario de crear cuenta e iniciar sesion */
+
+.form-container {
+    width: 100%;
+}
+
+.login-container,
+.register-container {
+    width: 50%;
+    height: 300px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.login-container h1,
+.register-container h1 {
+    text-align: center;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input-container p {
+    width: 5%;
+    font-size: 20px;
+}
+
+.input-container .input {
+    width: 92%;
+    border: 0px;
+    border-bottom: 2px solid blue;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+}
+
+.input-container .input:focus {
+    border-bottom: 2px solid rgb(255, 196, 0);
+    transition-duration: 1s;
+}
+
+.button-container {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: 0px;
+    font-size: 18px;
+    padding: 5px 20px;
+    /* float: right; */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-container {
+    margin: 20px 0px;
+}
+
+.btn-success {
+    background-color: rgb(2, 223, 138);
+}
+
+.btn-success:hover {
+    background-color: rgba(2, 223, 138, 0.795);
+}
+
+.btn-primary {
+    background-color: rgb(2, 105, 223);
+}
+
+.btn-primary:hover {
+    background-color: rgba(2, 24, 223, 0.795);
+}
+
+.btn-danger {
+    background-color: rgb(223, 2, 2);
+}
+
+.btn-danger:hover {
+    background-color: rgba(223, 2, 2, 0.795);
+}
+
+
+/* .register-container {
+    display: none;
+} */
+
+
+/* fin de los estilos */
+
+
+/* Estilos de la lista de productos */
+
+.list-container {
+    width: 60%;
+    background-color: white;
+    margin: 0px auto;
+    /* display: none; */
+}
+
+.list-header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+.title-container {
+    width: 100%;
+    text-align: center;
+}
+
+.option-container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.option-container p {
+    cursor: pointer;
+}
+
+.option-container p:hover {
+    color: gold;
+    transition-duration: .5s;
+}
+
+
+/* Estilos del formulario para crear una lista */
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* fin de estilos de formulario de la lista */
+
+
+/* Tabla zebra */
+
+.add-list-container {
+    display: none;
+}
+
+.list-container table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.list-container table th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+.list-container table .item:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.list-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* fin de estilos tabla zebra */
+
+
+/* Fin de la lista de productos */

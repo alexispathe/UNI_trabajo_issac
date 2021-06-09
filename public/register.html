@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Libreria para los iconos -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Fuente roboto de google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Estilos del proyecto -->
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="register-container">
+                <form class="register" method="POST">
+                    <h1>Registrarse</h1>
+                    <div class="input-container">
+                        <p><i class="fas fa-user"></i></p>
+                        <input type="text" class="input name" name="name" required placeholder="Escribe tu nombre" />
+                    </div>
+                    <div class="input-container">
+                        <p><i class="fas fa-envelope"></i></p>
+                        <input type="email" class="input email" name="email" required min="1" placeholder="Escribe tu correo" />
+                    </div>
+                    <div class="input-container">
+                        <p><i class="fas fa-lock"></i></p>
+                        <input type="password" class="input password" name="password" placeholder="Escribe tu contraseña" />
+                    </div>
+
+                </form>
+                <div class="button-container">
+                    <div>
+                        <a href="./login.html" class="btn btn-primary btn-login">Inisiar sesión</a>
+                    </div>
+                    <div>
+                        <button href="./register.html" class="btn btn-success btn-register">Crear cuenta</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="src/js/register.js"></script>
+</body>
+
+</html>
